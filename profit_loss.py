@@ -6,4 +6,9 @@ if(buying_price<selling_price):
 
 else:
     print("loss")
-    
+
+profit =(selling_price-buying_price)
+print(profit)
+
+percent=(profit*100)/buying_price
+print(percent,"%")
