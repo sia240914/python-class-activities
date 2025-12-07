@@ -1,0 +1,10 @@
+Sia_dob="24/9/2014"
+Dhananjay_dob="23/5/1983"
+Naisha_dob="22/10/2014"
+Supriya_dob="16/11/1983"
+Dev_dob="1/3/2022"
+print("Sia's birthday is on ", Sia_dob)
+print("Dhananjay's birthday is on ", Dhananjay_dob)
+print("Naisha's birthday is on ", Naisha_dob)
+print("Supriya's birthday is on ", Supriya_dob)
+print("Dev's birthday is on ", Dev_dob)
