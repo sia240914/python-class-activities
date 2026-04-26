@@ -24,5 +24,6 @@ for i in range (1,halfrowsize):
     num=1
     for j in range (1,2*(halfrowsize-i)):
         print(end=str(num))
-        num=num+1
+        num=num+17
+        
     print()
