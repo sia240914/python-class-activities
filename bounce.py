@@ -1,19 +1,4 @@
-import pygame 
-
-import random
-pygame.init()
-SPRITE_COLOR_CHANGE_EVENT=pygame.USEREVENT+1
-BACKGROUND_COLOR_CHANGE_EVENT=pygame.USEREVENT+2
-BLUE=pygame.Color('blue')
-PURPLE=pygame.Color('purple')
-PINK=pygame.Color('pink')
-
-MAGENTA=pygame.Color('magenta')
-BLACK=pygame.Color('black')
-GREEN=pygame.Color('green')
-RED=pygame.Color('red')
-
-class Sprite(pygame.sprite.Sprite):
+i.sprite.Sprite):
     def __init__(self,color,height,width):
         super().__init__()
         self.image=pygame.Surface([width,height])
@@ -68,7 +53,22 @@ while not exit:
             bg_color_change()
 
     all_sprite_list.update()
-    screen.fill(bg_color)
+    screen.fill(bg_color)mport pygame 
+
+import random
+pygame.init()
+SPRITE_COLOR_CHANGE_EVENT=pygame.USEREVENT+1
+BACKGROUND_COLOR_CHANGE_EVENT=pygame.USEREVENT+2
+BLUE=pygame.Color('blue')
+PURPLE=pygame.Color('purple')
+PINK=pygame.Color('pink')
+
+MAGENTA=pygame.Color('magenta')
+BLACK=pygame.Color('black')
+GREEN=pygame.Color('green')
+RED=pygame.Color('red')
+
+class Sprite(pygame
     all_sprite_list.draw(screen)
 
     pygame.display.flip()
