@@ -30,6 +30,41 @@ player_x_change=0
 
 
 
+enemyimg=[]
+enemyx=[]
+enemyy=[]
+enemyx_change=[]
+enemyy_change=[]
+num_of_enemies=6
+
+
+for _i in range(num_of_enemies):
+    enemyimg.append(pygame.image.load('download-removebg-preview.png'))
+    enemyx.append(random.randint(0,SCREEN_WIDTH - 64))
+
+
+    enemyy.append(random.randint(ENEMY_START_Y_MIN,ENEMY_START_Y_MAX))
+    enemyx_change.append(ENEMY_SPEED_X)
+    enemyy_change.append(ENEMY_SPEED_Y)
+
+
+
+bulletimg=pygame.image.load('')
+bulletx=0
+bullety=PLAYER_START_Y
+bulletx_change=0
+bullety_change=BULLET_SPEED_Y
+bullet_state="ready"
+
+score_value= 0
+font=pygame.font.Font('  ',32)
+textx=10
+texty=10
+
+over_font=pygame.font.Font('  ',64)
+    
+
+
 
 
 
