@@ -57,11 +57,11 @@ bullety_change=BULLET_SPEED_Y
 bullet_state="ready"
 
 score_value= 0
-font=pygame.font.Font('freesansbold  ',32)
+#font=pygame.font.Font('freesansbold',32)
 textx=10
 texty=10
 
-over_font=pygame.font.Font('freesansbold  ',64)
+#over_font=pygame.font.Font('freesansbold',64)
 
 
 def show_score(x,y):
